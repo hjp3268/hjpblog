@@ -1,0 +1,128 @@
+@font-face {
+    font-family: "FZ";
+    src: url("fonts/FangzhengKaiti.ttf");
+}
+@font-face {
+    font-family: "knewave";
+    src: url("fonts/knewave.ttf");
+}
+body {
+    background: url(figure/Stars.jpg);
+    background-size: 100%;
+    font-family: "FZ", Verdana, Geneva, Arial, sans-serif;
+    font-size: medium;
+    line-height: 1.2em;
+    color: white;
+}
+#header {
+    font: 1.6em "knewave", Verdana, Geneva, Arial, sans-serif;
+    color: lavender;
+}
+#header-right {
+    float: right;
+}
+#title {
+    font: 3em "FZ", Verdana, Geneva, Arial, sans-serif;
+    margin: 0.25em 0em 0.25em 0em;
+}
+
+#outline {
+    position: fixed;
+    top: 8em;
+    left: 2em;
+    font-weight: bold;
+    line-height: 2em;
+    font-size: 1.4em;
+}
+
+ul {
+    list-style: none;
+}
+
+.center {
+    text-align: center;
+}
+
+.classification {
+    padding: 1em;
+}
+
+#tablecontainer {
+    background-color: gainsboro;
+    margin: 0em 2em 0em 12em;
+    padding: 0em 1em 0em 1em;
+    border: black dashed medium;
+    border-radius: 1em;
+    color: black;
+}
+
+#content {
+    background-color: gainsboro;
+    /* background-image: url(figure/Snow.jpg);
+    background-size: cover; */
+    margin: 0em 2em 0em 12em;
+    padding: 0em 1em 0em 1em;
+    border: black dashed medium;
+    border-radius: 1em;
+    color: black;
+}
+
+/* styles of tables */
+.tablecontainer {
+    display: table;
+    padding: 0em 0em 2em 6em;
+}
+
+.tablecell {
+    display: table-cell;
+    margin: 0em 2em 2em 0em;
+    vertical-align: top;
+    text-align: center;
+    border: thin black solid;
+    border-radius: 1em;
+    border-style: outset;
+    background-color: lightsteelblue;
+    line-height: 1em;
+    width: 14em;
+    float: left;
+}
+
+.windows {
+    background-image: url(icons/windows.png);
+    background-repeat: no-repeat;
+}
+
+.android {
+    background-image: url(icons/android.png);
+    background-repeat: no-repeat;
+}
+
+.internet {
+    background-image: url(icons/internet.png);
+    background-repeat: no-repeat;
+}
+
+.reference {
+    background-image: url(icons/reference.png);
+    background-repeat: no-repeat;
+}
+
+.tablecell .name {
+    border-bottom: thin black dashed;
+    padding: 1.25em 0em 0.75em 0em;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.tablecell .detail {
+    padding: 0.5em 0em 0.5em 0em;
+    font-size: 0.8em;
+}
+
+
+
+/* styles of link colors */
+a {
+    text-decoration: none;
+    color: inherit;
+}
