@@ -102,6 +102,11 @@ ul {
     background-repeat: no-repeat;
 }
 
+.addon {
+    background-image: url(icons/addon.png);
+    background-repeat: no-repeat;
+}
+
 .reference {
     background-image: url(icons/reference.png);
     background-repeat: no-repeat;
