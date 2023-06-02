@@ -1,3 +1,19 @@
+@media screen and (orientation:portrait) {
+    #tablecontainer {
+        margin: 0em 2em 0em 12em;
+    }
+}
+ 
+@media screen and (orientation:landscape) {
+    #tablecontainer {
+        margin: 0em 2em 0em 2em;
+    }
+
+    #outline {
+        display: none;
+    }
+}
+
 @font-face {
     font-family: "FZ";
     src: url("fonts/FangzhengKaiti.ttf");
